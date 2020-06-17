@@ -148,7 +148,6 @@ Additionally, if you rely on a dependency that uses `_python3`-suffixed codename
 #### pip
 
 Python packages, which are only available on [PyPI](https://pypi.org/) should use the `-pip` extension to avoid colliding with future keys from package managers.
-Some existing rules are duplicated with `python-` or `python3-` prefixes, but this is no longer recommended.
 
 For example:
 
@@ -158,6 +157,8 @@ foobar-pip:
     pip:
       packages: [foobar]
 ```
+
+Some existing rules are duplicated with `python-` or `python3-` prefixes, but this is no longer recommended.
 
 How to submit pull requests
 ---------------------------
