@@ -5222,13 +5222,13 @@ python-xmltodict:
 python-yamale-pip:
   debian:
     pip:
-      packages: [yamale]
+      packages: [yamale<3]
   fedora:
     pip:
-      packages: [yamale]
+      packages: [yamale<3]
   ubuntu:
     pip:
-      packages: [yamale]
+      packages: [yamale<3]
 python-yaml:
   alpine: [py-yaml]
   arch: [python2-yaml]
